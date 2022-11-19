@@ -40,7 +40,7 @@ app.layout = html.Div(
 
         dcc.Graph(
             id="Nivel x Hora",
-            figure=px.bar(ddata, x=ddata["Lata"], y=ddata["Nivel"])
+            figure=px.bar(ddata, x=ddata["Lata"], y=ddata["Nivel(%)"])
 
         ),
 
